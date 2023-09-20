@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-color: #E8EDFF;
+
+    .header{
+        width: 100vw;
+        height: 120px;
+        background-color: #646199;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logoHolder{
+        height: 100%;
+        width: 20vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo{
+            p{
+                font-size: 28px;
+                color: #DFC5FE;
+            }
+        }
+    }
+
+    .linksHolder{
+        height: 100%;
+        width: 30vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .links{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            p{
+                font-size: 18px;
+                color: #DFC5FE;
+            }
+        }
+    }
+
+    .bannerHolder{
+        width: 100%;
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+
+        .banner{
+            width: 1200px;
+            height: 100%;
+            background-color: #646199;
+
+            .bannerOne{
+                width: 100%;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+
+                .welcomeBanner{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 120px;
+                    height: 100%;
+                    background-color: #E8EDFF;
+                }
+            }
+            .bannerTwo{
+                width: 100%;
+                height: 120px;
+                display: flex;
+                justify-content: center;
+
+                .logoBanner{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 100%;
+
+                    p{
+                        color: #DFC5FE;
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+    }
+
+    .shopHolder{
+        width: 100%;
+        height: 460px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+
+        .boxHolder{
+            width: 1200px;
+            height: 100%;
+            background-color: blue;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .boxOdd{
+                height: 400px;
+                width: 360px;
+                background-color: yellow;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .imgHolder{
+                    height: 300px;
+                    width: 300px;
+                    background-color: purple;
+                }
+            }
+
+            .boxEven{
+                height: 400px;
+                width: 360px;
+                background-color: yellow;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .text{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: flex-end;
+                    background-color: skyblue;
+                }
+
+                .imgHolder{
+                    height: 300px;
+                    width: 300px;
+                    background-color: purple;
+                }
+            }
+        }
+    }
+}
