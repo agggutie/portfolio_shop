@@ -4,7 +4,7 @@ body {
 
 .home {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: #E8EDFF;
 }
 .home .header {
@@ -52,7 +52,7 @@ body {
   margin-bottom: 80px;
 }
 .home .bannerHolder .banner {
-  width: 1200px;
+  width: 1400px;
   height: 100%;
   background-color: #646199;
 }
@@ -87,6 +87,59 @@ body {
   color: #DFC5FE;
   font-size: 50px;
 }
+.home .categoriesHolder {
+  width: 100%;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+}
+.home .categoriesHolder .categories {
+  width: 1400px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.home .categoriesHolder .categories .box {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home .categoriesHolder .categories .box a {
+  position: relative;
+  display: inline-block;
+}
+.home .categoriesHolder .categories .box a p {
+  display: none;
+}
+.home .categoriesHolder .categories .box a:hover p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  margin: 0;
+  display: block;
+}
+.home .categoriesHolder .categories .box a p span {
+  display: inline-table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+.home .categoriesHolder .categories .box a p span span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.home .categoriesHolder .categories .box img {
+  width: 100%;
+  height: 100%;
+}
 .home .shopHolder {
   width: 100%;
   height: 460px;
@@ -94,42 +147,82 @@ body {
   justify-content: center;
 }
 .home .shopHolder .boxHolder {
-  width: 1200px;
+  width: 1400px;
   height: 100%;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
-.home .shopHolder .boxHolder .boxOdd {
+.home .shopHolder .boxHolder .box {
   height: 400px;
-  width: 360px;
-
+  width: 420px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
-.home .shopHolder .boxHolder .boxOdd .imgHolder {
-  height: 300px;
-  width: 300px;
+.home .shopHolder .boxHolder .box .imgHolder {
+  height: 275px;
+  width: 250px;
+}
+.home .shopHolder .boxHolder .box .imgHolder img {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+}
+.home .shopHolder .boxHolder .box .textHolder {
+  height: 200px;
+  width: 150px;
   background-color: #646199;
 }
-.home .shopHolder .boxHolder .boxEven {
-  height: 400px;
-  width: 360px;
- 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.home .shopHolder .boxHolder .boxEven .text {
-  width: 100%;
+.home .shopHolder .boxHolder .box .textHolder p {
+  margin: 5px;
+  margin-top: 10px;
   height: 100%;
-  display: flex;
-  align-items: flex-end;
-  background-color: skyblue;
+  width: 100%;
+  color: #DFC5FE;
+  font-size: 16px;
 }
-.home .shopHolder .boxHolder .boxEven .imgHolder {
-  height: 300px;
-  width: 300px;
-  background-color: #DFC5FE;
+.home .footer-basic {
+  padding: 40px 0;
+  background-color: #646199;
+  color: #DFC5FE;
+}
+.home .footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+.home .footer-basic li {
+  padding: 0 10px;
+}
+.home .footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.home .footer-basic ul a:hover {
+  opacity: 1;
+}
+.home .footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.home .footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+.home .footer-basic .social > a:hover {
+  opacity: 0.9;
 }/*# sourceMappingURL=style.css.map */
