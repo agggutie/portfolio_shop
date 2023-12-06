@@ -175,7 +175,8 @@ body {
   background-color: #646199;
 }
 .home .shopHolder .boxHolder .box .textHolder p {
-  margin: 5px;
+  margin-left: 2px;
+  margin-right: 5px;
   margin-top: 10px;
   height: 100%;
   width: 100%;
