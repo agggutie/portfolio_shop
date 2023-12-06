@@ -165,8 +165,8 @@ body {
   width: 250px;
 }
 .home .shopHolder .boxHolder .box .imgHolder img {
-  width: -moz-fit-content;
-  width: fit-content;
+  width: -moz-min-content;
+  width: min-content;
   height: 100%;
 }
 .home .shopHolder .boxHolder .box .textHolder {
